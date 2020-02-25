@@ -19,10 +19,10 @@ def main():
 
   stream = BinLogStreamReader(
     connection_settings= {
-      "host": "db-dev.aspire.int.asurion.com",
+      "host": "yourhost",
       "port": 3306,
       "user": "dbadmin",
-      "passwd": "Password2019!"},
+      "passwd": ""},
     server_id=100,
     blocking=True,
     resume_stream=True,
