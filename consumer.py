@@ -6,7 +6,7 @@ import time
 my_stream_name = 'TestStream'
 
 session = boto3.Session(
-    profile_name='asurion-poc.amadevops',
+    profile_name='envi.role',
     region_name='ap-northeast-1'
 )
 
