@@ -11,7 +11,7 @@ from pymysqlreplication.row_event import (
 def main():
 
   session = boto3.Session(
-    profile_name='asurion-poc.amadevops',
+    profile_name='yourprofile.role',
     region_name='ap-northeast-1'
   )
 
